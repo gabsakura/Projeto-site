@@ -1,0 +1,16 @@
+  body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        width: 320px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+p{
+    body {
+        background-image: url('caminho/para/imagem/fundo.jpg'); /* substitua 'caminho/para/imagem/fundo.jpg' pelo caminho real da sua imagem de fundo */
+        background-size: cover; /* para garantir que a imagem cubra todo o corpo */
+    } 
+}
