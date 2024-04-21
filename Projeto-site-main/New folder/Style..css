@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.background-image {
+    background-image: url('imagens/ziggao.jpg');
+    background-size: 320px; /* Define a largura da imagem de fundo como 320 pixels */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-position: top center; /* Centraliza a imagem na parte superior */
+}
+
+.background-image-2 {
+    background-image: url('imagens/outra-imagem.jpg');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.container {
+    width: 320px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333; /* Cor do texto dentro da classe .container */
+}
+
+.container a {
+    color: blue; /* Cor dos links dentro da classe .container */
+}
+
+.container h1 {
+    color: green; /* Cor do cabeçalho h1 dentro da classe .container */
+}
+
+.links {
+    flex-basis: 100%; /* Define a largura total para os links */
+}
+
+.links a {
+    display: block; /* Cada link ocupa uma linha inteira */
+    margin-bottom: 10px; /* Espaço entre os links */
+}
+
+.media {
+    flex-basis: 100%; /* Define a largura total para os elementos de mídia */
+    display: flex;
+    justify-content: space-between; /* Distribui os elementos igualmente na linha */
+}
+
+.media img,
+.media iframe {
+    width: calc(50% - 5px); /* Calcula a largura para ocupar metade do espaço, com espaço entre eles */
+}
